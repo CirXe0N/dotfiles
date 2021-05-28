@@ -13,6 +13,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 alias reloadzsh="source ${ZSH}/oh-my-zsh.sh"
+alias ll="ls -alF"
+alias la="ls - A"
+alias l="ls -CF"
 
 export EDITOR="nvim"
 
